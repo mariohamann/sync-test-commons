@@ -4,9 +4,10 @@ group:
         dest: synced/
         deleteOrphaned: true
     repos: |
-      mariohamann/sync-test-repo
+      mariohamann/sync-test-repo-individual
+      mariohamann/sync-test-repo-common
   - files:
       - source: synced/individual/
         dest: synced/
     repos: |
-      mariohamann/sync-test-repo
+      mariohamann/sync-test-repo-individual
