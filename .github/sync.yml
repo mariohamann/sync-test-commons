@@ -1,0 +1,6 @@
+group:
+  - files:
+      - source: synced/common/
+        dest: synced/
+    repos: |
+      mariohamann/sync-test-repo
