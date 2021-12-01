@@ -2,5 +2,11 @@ group:
   - files:
       - source: synced/common/
         dest: synced/
+        deleteOrphaned: true
+    repos: |
+      mariohamann/sync-test-repo
+  - files:
+      - source: synced/individual/
+        dest: synced/
     repos: |
       mariohamann/sync-test-repo
